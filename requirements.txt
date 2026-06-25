@@ -1,0 +1,11 @@
+# Dependencias del Optimizador de Imágenes
+# Instala con:  py -m pip install -r requirements.txt
+
+Pillow>=10.0.0          # Procesamiento de imágenes (núcleo)
+
+# --- Opcionales ---
+# rembg + onnxruntime solo se necesitan para "quitar fondo".
+# La app los instala automáticamente la primera vez que se usa esa función,
+# pero también puedes instalarlos manualmente descomentando estas líneas:
+# rembg>=2.0.0
+# onnxruntime>=1.16.0
